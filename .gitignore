@@ -50,3 +50,4 @@ Thumbs.db
 
 # ignore the old dropbox files
 ./Worksheets/*
+Worksheets
