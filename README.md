@@ -1,4 +1,4 @@
-# Tutorial_on_DA
+# Mathematical Theory of Data Assimilation with Applications --- Tutorials 
 
 This repository is for a series of lectures given in the 
 London Mathematical Society 2019 <a href="http://mpecdt.org/lms-summer-school-mathematics-of-climate-8-12-july-2019/" target="blank">Summer Research School on the Mathematics of Climate</a>.  
