@@ -1,7 +1,7 @@
 # Tutorial_on_DA
 
 This repository is for a series of lectures given in the 
-London Mathematical Society 2019 <a href="http://mpecdt.org/lms-summer-school-mathematics-of-climate-8-12-july-2019/">Summer Research School on the Mathematics of Climate</a>.  
+London Mathematical Society 2019 <a href="http://mpecdt.org/lms-summer-school-mathematics-of-climate-8-12-july-2019/" target="blank">Summer Research School on the Mathematics of Climate</a>.  
 
 These lectures were developed in collaboration with Alberto Carrassi, Patrick Raanes and Marc Bocquet.  The development of these lectures benefited from the following works referenced,
 
