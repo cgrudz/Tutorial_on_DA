@@ -7,7 +7,7 @@ These lectures were developed in collaboration with Alberto Carrassi, Patrick Ra
 
  * Kalnay, Eugenia. Atmospheric modeling, data assimilation and predictability. Cambridge university press, 2003.
 
- * Doucet, Arnaud, Nando De Freitas, and Neil Gordon. "An introduction to sequential Monte Carlo methods." Sequential Monte Carlo methods in practice. Springer, New York, NY, 2001.
+ * Doucet, Arnaud, Nando De Freitas, and Neil Gordon. An introduction to sequential Monte Carlo methods. Sequential Monte Carlo methods in practice. Springer, New York, NY, 2001.
 
  * <a href="http://www.met.reading.ac.uk/~ross/Documents/Var4d.html" target="blank">Ross N. Bannister. ELEMENTARY 4D-VAR.
 DARC Technical Report No. 2</a>
