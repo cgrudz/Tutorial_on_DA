@@ -14,6 +14,9 @@ DARC Technical Report No. 2</a>
 
  * Evensen, Geir. The ensemble Kalman filter: Theoretical formulation and practical implementation. Ocean dynamics 53.4 (2003): 343-367.
 
+ * Bocquet, Marc.<a href="http://cerea.enpc.fr/HomePages/bocquet/teaching/assim-mb-en.pdf" target="blank">Introduction to the principles and methods of data assimilation in the geosciences</a>. Lecture notes. Version 0.32. 2019.
+
+
 ## License information
 
 This project is licensed under the MIT License - see the [License.md](https://github.com/cgrudz/Tutotial_on_DA/blob/master/LICENSE.md) file for details
