@@ -31,14 +31,14 @@ import ipdb
 # Simulation and visualization parameters
 ########################################################################################################################
 
-## Initial simiulation paramters
+## Initial simiulation parameters
 ensn_0 = 25              # ensemble (sample) size
 bstd_0 = 0.1             # backgorund error standard deviation
 rstd_0 = 0.1             # observation error standard deviation
 k_0 = 1                  # number of forecasts under the numerical model
 analysis_0 = 'Bootstrap' # bootstrap particle filter versus free ensemble forecast
 
-# color map paramters for particle weights
+# color map parameters for particle weights
 wmap = "plasma"
 norm = colors.LogNorm(vmin=10e-10, vmax=0.1)
 
