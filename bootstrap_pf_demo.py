@@ -10,7 +10,23 @@ from matplotlib.colors import LogNorm
 import copy
 import ipdb
 
-
+########################################################################################################################
+## License information - GNU GPLv3 © Colin Grudzien 2020
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should be able to access a copy of the license in repository with the following link:
+# https://github.com/cgrudz/Tutotial_on_DA/blob/master/LICENSE.md.
+# If not, see <https://www.gnu.org/licenses/>.                                              
+#
 ########################################################################################################################
 # Simulation and visualization parameters
 ########################################################################################################################
@@ -170,7 +186,6 @@ def run_pf(B_std, R_std, k, ens_n, analysis):
         # and generate a noisy observation
         y_obs[:, i] = np.squeeze(x_t) + np.random.multivariate_normal([0,0], R)
     
-    
     # set a random seed for the reproducibility of the ensembles
     np.random.seed(2)
 
@@ -231,8 +246,8 @@ def run_pf(B_std, R_std, k, ens_n, analysis):
         # compute the analysis RMSE at the current time
         RMSE[i] = pf_RMSE(x_ts[:, i], ens_a, ens_w_a)
 
+    # compute the running average
     running_RMSE = copy.copy(RMSE)
-    
     for i in range(1, k):
         running_RMSE[i] = np.mean(RMSE[:i+1])
 
